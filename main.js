@@ -15,7 +15,7 @@ function buyshardsclick() {
     gameData.shardsclick += 1
     gameData.shardsclick *= 2
     document.getElementById("shardsmined").innerHTML = gameData.shards + " shards collected"
-    document.getElementById("pickaxe").innerHTML = "upgrade pickaxe (" + gameData.pickaxename + ")[" + gamedata.shardsclick + " "] costs " + costsshardsclickcost + " shards"
+    document.getElementById("pickaxe").innerHTML = "upgrade pickaxe (" + gameData.pickaxename + ")[" + gamedata.shardsclick + "] costs " + shardsclickcost + " shards"
   }
   if (gamedata.shardsclick >=10 && gamedata.shardsclick <=50) {
     var pickaxename = "wooden";
